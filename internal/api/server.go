@@ -46,7 +46,7 @@ func StartServer() {
 }
 
 func genRandomRating(password string) Result {
-	time.Sleep(5 * time.Second)
+	time.Sleep(8 * time.Second)
 
 	rand.Seed(time.Now().UnixNano())
 	randomRating := strconv.Itoa(rand.Intn(851))
